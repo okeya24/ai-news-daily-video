@@ -1,5 +1,10 @@
 # AI News Daily · 每日 AI 新闻边角料短视频自动化流水线
 
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-video-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
+![Format: 9:16 Vertical](https://img.shields.io/badge/Format-9:16%20Vertical-red)
+
 > **Automated daily AI news briefing video generator.** 一套可复用的「每日资讯播报短视频」生产流水线：自动搜集全球 AI 热点 → 按热度筛选 → 撰写口播稿 → 生成铅笔速写插画 → 分段配音 → 合成竖屏短视频，产出可直接用于抖音 / 视频号 / 小红书 / YouTube Shorts 的 9:16 内容。
 
 **Keywords:** AI news daily, automated news briefing, daily short video generator, content automation pipeline, vertical video 9:16, Python, Pillow, ffmpeg, text-to-speech, pencil sketch illustration, social media content creation, scheduled cron workflow.
@@ -7,6 +12,8 @@
 **Use cases:** 每日 AI 资讯播报、短视频日更流水线、新闻卡片模板、TTS 配音对齐、ffmpeg 自动合成竖屏视频、可复用的 Agent 内容生产工作流，可迁移到财经、科技、游戏等其他日更栏目。
 
 **Tech stack:** Python 3 · Pillow (PIL) · FFmpeg · Text-to-Speech · ffmpeg concat · scheduled cron job.
+
+▶️ **Sample output**（2m13s，2026-11-14 样片）：[ai-news-briefing sample video](https://aka.doubaocdn.com/s/sR2tyCWL95)
 
 ## ✨ Features / 特性
 
