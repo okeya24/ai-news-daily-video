@@ -4,6 +4,10 @@
 
 **Keywords:** AI news daily, automated news briefing, daily short video generator, content automation pipeline, vertical video 9:16, Python, Pillow, ffmpeg, text-to-speech, pencil sketch illustration, social media content creation, scheduled cron workflow.
 
+**Use cases:** 每日 AI 资讯播报、短视频日更流水线、新闻卡片模板、TTS 配音对齐、ffmpeg 自动合成竖屏视频、可复用的 Agent 内容生产工作流，可迁移到财经、科技、游戏等其他日更栏目。
+
+**Tech stack:** Python 3 · Pillow (PIL) · FFmpeg · Text-to-Speech · ffmpeg concat · scheduled cron job.
+
 ## ✨ Features / 特性
 
 - **每日热点聚合**：按周报、社区热度、产品发布、融资商业、研究突破、监管政策六个维度检索，多源交叉验证后按热度排序取前 5 条。
@@ -70,6 +74,7 @@ bash build_video.sh
 ```text
 ai-news-daily-video/
 ├── README.md              # 项目说明（本文件）
+├── LICENSE                # MIT 许可证
 ├── config.json            # 可改变量：栏目名、领域、条数、画幅、音色、口吻、质检项
 ├── requirements.txt        # Python 依赖
 ├── build_cards.py         # PIL 卡片模板生成（片头 + 5 条 + 结尾）
@@ -113,7 +118,11 @@ ai-news-daily-video/
 - 当前版本为**静态卡片流**；旁白逐句跟随字幕条、背景音乐、动态镜头 / 数字人属于后续可扩展项。
 - 成片默认交付人工终审后手动发布；未接入任何自媒体平台的自动发布通道。
 - 新闻需保留可溯源原文链接，不把预测或传闻写成既定事实。
-- 本仓库未指定开源许可证；二次使用前请确认素材、字体与配音的授权合规。
+- 本项目代码基于 [MIT License](LICENSE) 发布；素材、字体与配音的授权合规由使用者自行确认。
+
+## 📄 License
+
+Released under the [MIT License](LICENSE).
 
 ## 📄 Sample / 示例稿件
 
