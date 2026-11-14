@@ -1,0 +1,35 @@
+{
+  "channel_name": "AI 新闻边角料",
+  "channel_name_en": "DAILY AI BRIEFING",
+  "domain": "全球 AI",
+  "items_per_day": 5,
+  "aspect_ratio": "9:16",
+  "resolution": [1080, 1920],
+  "fps": 30,
+  "style": "黑白铅笔速写新闻手绘，米白纸底，衬线标题",
+  "voice": {
+    "gender_age": "中学年龄段年轻男生",
+    "timbre": "清亮爽朗少年音，带一点东北口语的松弛亲切感",
+    "pace": "适中偏快，节奏利落，句间停顿简短，吐字清晰不拖沓",
+    "note": "气质相近即可，不复刻特定声优原声；无背景音乐"
+  },
+  "tone": "轻松资讯播报，每条必带一句争议或风险提示，不做单向吹捧",
+  "opening_template": "大家好，这是{channel_name}！{date}，全球{domain}圈最值得关注的{n}条动态，争议和看点都给你摆出来，一分钟看完。",
+  "closing_template": "以上就是今天的{n}条{channel_name}，关注我，带你看全球{domain}边角料，我们明天见。",
+  "paths": {
+    "assets": "assets",
+    "cards": "output/cards",
+    "segments": "output/seg",
+    "script": "script.md",
+    "rules": "docs/AGENT_RULES.md"
+  },
+  "quality_check": [
+    "数字金额百分比版本号星标数与稿一致，无错读",
+    "专有名词公司名模型名念对，无串名",
+    "无漏条跳句口误，开场结尾称呼正确",
+    "争议表述与来源一致，不夸大不编造",
+    "插画与条目对应，卡片文字无溢出无孤行",
+    "新闻均可溯源，未把传闻写成事实"
+  ],
+  "publish": "成片与标题话题标签交付人工终审后手动发布，当前不自动上传平台"
+}

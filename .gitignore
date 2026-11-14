@@ -1,0 +1,20 @@
+# 生成产物：音频、插画、卡片、分段与成片均不入库
+output/
+assets/*.wav
+assets/*.mp3
+assets/*.jpg
+assets/*.jpeg
+assets/*.png
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 系统与临时文件
+.DS_Store
+*.swp
+chk*.jpg
+script.md
